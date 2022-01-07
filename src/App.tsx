@@ -1,4 +1,4 @@
-import React, { CSSProperties, useState } from 'react';
+import React, { useState } from 'react';
 import AppBar from './components/AppBar';
 import AppMain from './components/AppMain';
 import GameContextProvider from './context/GameContext'
