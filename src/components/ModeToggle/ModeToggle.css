@@ -1,0 +1,42 @@
+.rail {
+  background-color: gray;
+  border-radius: 15px;
+  width: 48px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  height: 24px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.switch {
+  height: 22px;
+  position: absolute;
+  width: 22px;
+  background: white;
+  border-radius: 50%;
+  top: 1px;
+  background: linear-gradient(45deg, black, gray);
+  transition: transform 250ms ease-out;
+}
+
+.switch--start-light {
+  left: 1px;
+}
+
+.switch--start-dark {
+  right: 1px;
+}
+
+.switch--light.switch--start-dark {
+  transform: translateX(-24px);
+}
+
+.switch--dark.switch--start-light {
+  transform: translateX(24px);
+}

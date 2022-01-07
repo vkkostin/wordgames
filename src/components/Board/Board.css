@@ -1,0 +1,40 @@
+.board__row {
+  margin: 10px 0;
+}
+
+.board__column {
+  width: 50px;
+  height: 50px;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+  color: black;
+  margin: 5px;
+}
+
+.light .board__column.board__column--disabled {
+  background: white;
+  border: 1px solid gray;
+}
+
+.dark .board__column.board__column--disabled {
+  background: black;
+  border: 1px solid gray;
+}
+
+.board__column.board__column--active {
+  background: white;
+}
+
+.board__column.board__column--valid {
+  background: forestgreen;
+}
+
+.board__column.board__column--invalid {
+  background: dimgray;
+}
+
+.board__column.board__column--misplaced {
+  background: orange;
+}
