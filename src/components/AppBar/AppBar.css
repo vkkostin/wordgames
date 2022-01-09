@@ -6,22 +6,6 @@
   padding: 20px;
 }
 
-.app-bar__back {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  border: none;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.app-bar__back:hover {
-  background-color: gray;
-}
-
 [data-theme="dark"] .app-bar {
   background-color: var(--dark-mode-background);
   color: white;

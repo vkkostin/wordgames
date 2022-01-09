@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import ModeToggle from '../ModeToggle'
 import './AppBar.css'
 import { GameContext } from '../../context/GameContext'
+import { ICONS } from '../../constants'
+import IconButton from '../../components/UI/IconButton'
 
 type AppBarProps = {
   goBack: () => void;
@@ -15,11 +17,7 @@ const AppBar = ({ goBack, isPlaying }: AppBarProps) => {
   let title = 'Word Games'
 
   if (isPlaying) {
-    backButton = (
-      <button className="app-bar__back" onClick={goBack}>
-        &#8592;
-      </button>
-    )
+    backButton = <IconButton size='large' icon={ICONS.LEFT_ARROW} onClick={goBack} />
 
     title = game
   }

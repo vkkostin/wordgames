@@ -1,4 +1,5 @@
 import React, { createContext, useState } from 'react'
+import { LETTERS } from '../constants'
 
 export const GameContext = createContext({
   game: '',
@@ -12,7 +13,7 @@ type GameContextProps = {
 }
 
 const GameContextProvider = ({ children }: GameContextProps) => {
-  const [game, setGame] = useState('')
+  const [game, setGame] = useState(LETTERS)
 
   return (
     <GameContext.Provider value={{ game, setGame: game => setGame(game) }}>

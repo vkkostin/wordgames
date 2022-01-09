@@ -1,0 +1,17 @@
+.configuration {
+  width: 50%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.configuration-__settings-toggle {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+.configuration-__settings-toggle:hover {
+  color: gray;
+}

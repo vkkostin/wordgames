@@ -1,0 +1,25 @@
+.icon-button {
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-button--large {
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+
+}
+
+.icon-button--small {
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+}
+
+.icon-button:hover {
+  background-color: gray;
+}

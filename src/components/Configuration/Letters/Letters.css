@@ -1,0 +1,9 @@
+.letters-configuration {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.letters-configuration__panel {
+  margin-bottom: 50px;
+}

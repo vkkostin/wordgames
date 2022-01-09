@@ -1,9 +1,11 @@
 import React, { useState, useContext } from 'react'
-import Configuration from './Configuration'
-import Letters from './Board/Letters'
-import { LETTERS } from '../constants'
-import { GameContext } from '../context/GameContext'
-import { GameOptions } from '../interfaces'
+import Configuration from '../Configuration'
+import Letters from '../Board/Letters'
+import { LETTERS } from '../../constants'
+import { GameContext } from '../../context/GameContext'
+import { GameOptions } from '../../interfaces'
+
+import './AppMain.css'
 
 type GameProps = {
   startGame: () => void;
@@ -32,7 +34,7 @@ const Game = ({ startGame, isPlaying }: GameProps) => {
   }
 
   return (
-    <main>
+    <main className="app-main">
       {screen}
     </main>
   )

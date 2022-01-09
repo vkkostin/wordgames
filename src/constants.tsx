@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const EASY: string = 'easy'
 export const MEDIUM: string = 'medium'
 export const HARD: string = 'hard'
@@ -29,3 +31,10 @@ export const LIGHT: string = 'light'
 export const DARK: string = 'dark'
 
 export const LETTERS: string = 'LETTERS'
+
+export const ICONS = {
+  LEFT_ARROW: <span>&#8592;</span>,
+  DOWN_CHEVRON: <span>&#8744;</span>,
+  LEFT_CHEVRON: <span>&#8826;</span>,
+  RIGHT_CHEVRON: <span>&#8827;</span>,
+}
