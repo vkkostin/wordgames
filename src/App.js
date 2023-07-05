@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import AppBar from './components/AppBar';
-import AppMain from './components/AppMain';
-import GameContextProvider from './context/GameContext'
+import React from 'react';
+// import AppBar from './components/AppBar';
+// import AppMain from './components/AppMain';
+// import GameContextProvider from './context/GameContext'
 import Edovo from './Edovo';
 
 function App() {
-  const [isPlaying, setIsPlaying] = useState(false)
+  // const [isPlaying, setIsPlaying] = useState(false)
 
-  const toggleScreen = () => setIsPlaying(prevState => !prevState)
+  // const toggleScreen = () => setIsPlaying(prevState => !prevState)
 
   return <Edovo/>
 
